@@ -513,6 +513,14 @@ li{
         align-items: center;
     }
 
+     /* Portflio Card Css */
+
+     .skills-info .skill-item-portfolio img{
+        max-width: 100px;
+        max-height: 100px;
+        filter: var(--colour-filter);
+    }
+
     .fav-stack-info ul{
         display: flex;
         justify-content: space-between;
