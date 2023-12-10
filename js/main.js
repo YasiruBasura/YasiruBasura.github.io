@@ -48,9 +48,9 @@ ScrollReveal().reveal('.home .info h2',{delay: 500, origin:'left'});
 ScrollReveal().reveal('.home .info .btn',{delay: 700, origin:'bottom'});
 ScrollReveal().reveal('.media-icons i',{delay: 500, origin:'left',interval:200});  //the interval option is used to delay the reveal of each icon
 ScrollReveal().reveal('.home-img, about-img',{delay: 500, origin:'bottom'});
-ScrollReveal().reveal('.about .description',{delay: 500, origin:'left'});
-ScrollReveal().reveal('.about .professional-list li',{delay: 500, origin:'right', interval: 200});
-ScrollReveal().reveal('.portfolio .img-card-container .img-card',{delay: 800, origin:'bottom', interval: 200});
+ScrollReveal().reveal('.about .description',{delay: 300, origin:'left'});
+ScrollReveal().reveal('.about .professional-list li',{delay: 300, origin:'right', interval: 100});
+// ScrollReveal().reveal('.portfolio .img-card-container .img-card',{delay: 800, origin:'bottom', interval: 200});
 
 
 
