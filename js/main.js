@@ -50,7 +50,7 @@ ScrollReveal().reveal('.media-icons i',{delay: 500, origin:'left',interval:200})
 ScrollReveal().reveal('.home-img, about-img',{delay: 500, origin:'bottom'});
 ScrollReveal().reveal('.about .description',{delay: 300, origin:'left'});
 ScrollReveal().reveal('.about .professional-list li',{delay: 300, origin:'right', interval: 100});
-// ScrollReveal().reveal('.portfolio .img-card-container .img-card',{delay: 800, origin:'bottom', interval: 200});
+
 
 
 
