@@ -978,6 +978,19 @@ li{
         max-height: auto;
       }
 
+      /* FuelMeter specific stylings */
+      .introduction-fuelmeter {
+        display: flex;
+        gap: 30px;
+      }
+
+        .introduction-fuelmeter img{
+        max-width: 250px;
+        max-height: auto;
+        align-content: center;
+        
+      }
+
 
       .introduction{
         
