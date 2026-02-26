@@ -122,6 +122,8 @@ li{
     }
 
 
+
+
     /* Header */
     header{
         z-index: 99999;                /* higher index valued elments will appear on top of lower index valued elements */
@@ -290,7 +292,9 @@ li{
 
      .home-img{
        position: relative;
+       
     }
+
 
     .home-img img{
         transform: translate(0, 0);
@@ -760,6 +764,12 @@ li{
         box-shadow: var(--box-shadow);
         overflow: hidden;
         cursor: pointer;
+
+        
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
     }
 
     .portfolio-list .img-card .overlay{

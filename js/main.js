@@ -1,3 +1,20 @@
+//Global lazy loading
+
+
+  // Wait for the HTML document to fully load
+  document.addEventListener("DOMContentLoaded", function() {
+    
+    // Find all images that DO NOT already have a loading attribute
+    const images = document.querySelectorAll('img:not([loading])');
+    
+    // Loop through them and add loading="lazy" to each one
+    images.forEach(img => {
+      img.setAttribute('loading', 'lazy');
+    });
+    
+  });
+
+
 //navigation bar effects on scroll
 window.addEventListener('scroll', function(){
     const header = document.querySelector('header');
@@ -103,4 +120,4 @@ navItems.forEach((navItem) => {
     });
 }); 
 
-    
+
