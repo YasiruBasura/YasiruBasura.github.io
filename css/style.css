@@ -3,21 +3,21 @@
 :root{
 
     /* Main theme colours */
-    --first-colour:#0e2431;                 /* this is a declaration of a variable which has a colour */
+    --first-colour:#fefefe;                 /* this is a declaration of a variable which has a colour */
     --second-colour: #6a59d1;
-    --third-colour: #777;
+    --third-colour: #a9afc3;
 
 
     /* Hover colours */
     --hover-colour: #614fd0;
 
     /* Background colours */
-    --body-bg-colour: #fefefe;
-    --card-bg-colour: #fff;
-    --modal-bg-colour:#fff;
-    --bg-transparent-colour: rgba(0,0,0,0.1);
-    --transparent-colour: rgba(0,0,0,0.1);
-    --transparent-colour: rgba(106,89,209,0.1);
+    
+     --body-bg-colour: #0e1b31;
+    --card-bg-colour: #132347;
+    --modal-bg-colour:#102048;
+    --bg-transparent-colour: rgba(255,255,255,0.1);
+    --transparent-colour-01: rgba(255,255,255,0.1);
     --line-colour:#d7d7d7;
 
     /* Colour Filter */
@@ -32,8 +32,8 @@
     --normal-font-size: 1em;
 
     /* Scroll bar colours */
-    --scroll-bar-colour: #c5cadf;
-    --scroll-thumb-colour: #70768a;
+     --scroll-bar-colour: #c1ceff;
+    --scroll-thumb-colour: #282f4e;
     --scroll-thumb-hover-colour: #454f6b;
 
 }
@@ -41,32 +41,38 @@
 .dark-theme{
     
     /* Main theme colours */
-    --first-colour:#fefefe;                 /* this is a declaration of a variable which has a colour */
+    --first-colour:#0e2431;                 /* this is a declaration of a variable which has a colour */
     --second-colour: #6a59d1;
-    --third-colour: #a9afc3;
+    --third-colour: #777;
 
 
     /* Background colours */
-    --body-bg-colour: #0e1b31;
-    --card-bg-colour: #132347;
-    --modal-bg-colour:#102048;
-    --bg-transparent-colour: rgba(255,255,255,0.1);
-    --transparent-colour-01: rgba(255,255,255,0.1);
+    --body-bg-colour: #fefefe;
+    --card-bg-colour: #fff;
+    --modal-bg-colour:#fff;
+    --bg-transparent-colour: rgba(0,0,0,0.1);
+    --transparent-colour: rgba(0,0,0,0.1);
+    --transparent-colour: rgba(106,89,209,0.1);
     --line-colour:#d7d7d7;
 
     /* Colour Filter */
-    --colour-filter:invert(0);
-    --menu-btn-filter:invert(1);
+    --colour-filter:invert(1);
+    --menu-btn-filter:invert(0);
 
 
   
 
     /* Scroll bar colours */
-    --scroll-bar-colour: #c1ceff;
-    --scroll-thumb-colour: #282f4e;
+   
+     --scroll-bar-colour: #c5cadf;
+    --scroll-thumb-colour: #70768a;
     --scroll-thumb-hover-colour: #454f6b;
 
 }
+
+
+
+
 
 *{
     margin: 0;
