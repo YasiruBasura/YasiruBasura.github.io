@@ -1325,6 +1325,11 @@ li{
    font-size: 0.85rem;
 }
 
+/* .home-img .img{
+    min-width: 350px;
+    min-height: 350px;
+} */
+
 /* About Section */
 .about .container .content{
     display: grid;
